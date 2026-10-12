@@ -1,0 +1,9 @@
+# 统一换行符:文本文件按 LF 存入仓库,避免跨平台 diff 噪音
+* text=auto eol=lf
+
+# 二进制文件不转换
+*.wav binary
+*.png binary
+*.jpg binary
+*.jks binary
+*.zip binary
